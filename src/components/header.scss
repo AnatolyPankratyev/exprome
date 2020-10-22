@@ -1,0 +1,76 @@
+@import "src/screen";
+
+header {
+  padding: 15px 0;
+
+  .header-col {
+    display: flex;
+    align-items: center;
+  }
+
+
+  .logo-and-desc {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .header__logo {
+    span {
+      color: #f3d14c;
+      font-weight: 800;
+      font-size: 35px;
+    }
+  }
+
+  .header__description {
+    p {
+      margin-bottom: 10px;
+      margin-left: 10px;
+      color: #dad8f3;
+      font-weight: 300;
+      font-size: 13px;
+    }
+  }
+
+  .header__search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    input {
+      background-color: transparent;
+      border: 1px solid rgba(172, 172, 172, 0.67);
+      padding-left: 15px;
+      border-radius: 12px;
+      font-size: 12px;
+    }
+  }
+
+  .header__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    a {
+      font-size: 14px;
+      font-weight: 600;
+
+      &:first-child {
+        color: #f3d14c;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+
+      &:last-child {
+        color: #ffffff;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

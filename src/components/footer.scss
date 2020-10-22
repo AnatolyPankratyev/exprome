@@ -1,0 +1,87 @@
+@import "src/screen";
+
+footer {
+  margin-top: 65px;
+  background-color: #1c1c1c;
+  padding: 45px 0;
+
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .first-row {
+    .footer-links {
+      a {
+        font-weight: 600;
+        font-size: 12px;
+        color: #ffffff;
+
+        &:not(:last-child) {
+          &:after {
+            content: " |";
+          }
+        }
+      }
+    }
+
+    .footer-social {
+      span {
+        font-size: 12px;
+        font-weight: 600;
+      }
+      img {
+        margin-left: 5px;
+      }
+    }
+
+    .footer-phone {
+      text-align: right;
+
+      a {
+        color: #ffffff;
+        font-weight: 800;
+        font-size: 17px;
+      }
+    }
+  }
+
+  .second-row {
+    margin-top: 35px;
+
+    a {
+      font-size: 12px;
+      text-decoration: underline;
+      color: #bfbfbf;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .third-row {
+    margin-top: 35px;
+
+    p {
+      margin-bottom: 0;
+      font-size: 13px;
+    }
+
+    span {
+      font-size: 13px;
+    }
+
+    a {
+      font-size: 13px;
+      color: white;
+      margin-right: 5px;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

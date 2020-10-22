@@ -1,0 +1,23 @@
+@import "src/screen";
+
+.back-btn {
+
+  span {
+    margin-right: 7px;
+    transition-duration: .2s;
+  }
+
+  background-color: #252525;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 10px 30px;
+
+  &:hover {
+    color: #ffffff;
+    span {
+      margin-right: 12px;
+      transition-duration: .2s;
+    }
+  }
+
+}
